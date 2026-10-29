@@ -1,0 +1,74 @@
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  background: #f2f4f8;
+  color: #222;
+}
+
+.app {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 24px 16px;
+  text-align: center;
+}
+
+.search-bar {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.search-bar input {
+  flex: 1;
+  padding: 10px 12px;
+  font-size: 1rem;
+  border: 1px solid #c5cad3;
+  border-radius: 8px;
+}
+
+.search-bar button {
+  padding: 10px 18px;
+  font-size: 1rem;
+  color: #fff;
+  background: #e3350d;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.search-bar button:hover { background: #c22a08; }
+
+.pokemon-card {
+  background: #fff;
+  margin: 16px auto;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+}
+
+.erro { color: #c0392b; font-weight: 600; }
+
+.evolucoes-lista {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+}
+
+.evolucao-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.evolucao-card {
+  background: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.seta { font-size: 1.6rem; color: #e3350d; }
